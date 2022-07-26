@@ -1,0 +1,286 @@
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    display: inline;
+    font-weight: 800;
+    white-space: nowrap;
+
+}
+
+.paragraph {
+    font-size: 15px;
+    white-space: normal;
+}
+
+.link-button {
+    color: white;
+    background-color: rgb(255, 19, 2);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.donate {
+    font-size: 40px;
+    padding-top: 70px;
+    font-weight: bold;
+
+}
+
+section {
+    display: flex;
+}
+
+.payment {
+    width: 50%;
+    height: 50%;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+
+    margin: 50px;
+
+    text-align: center;
+    background-color: #EBEDEF;
+    font-weight: 900;
+    color: #909497;
+    border-radius: 2px;
+}
+
+.payment:hover {
+    color: #000000;
+
+}
+
+.Amount {
+    padding-top: 50px;
+    font-size: 13px;
+    color: #CACFD2;
+}
+
+#selected-payment {
+    color: red;
+    border: 2px solid red;
+    background-color: #FCE8E7;
+}
+
+.amount-box {
+    align-content: center;
+
+}
+
+.payment-box {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+
+}
+
+.donate-button {
+    color: white;
+    background-color: rgb(255, 19, 2);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.img-in-box img {
+    padding-top: 10px;
+
+
+}
+
+
+
+
+
+
+
+
+
+.textarea {
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+}
+
+.dnt-plan {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.dnt-plan-tagline {
+    font-size: 19px;
+    text-align: center;
+    display: inline;
+
+}
+
+.in-box-text-one {
+    padding-left: 10px;
+    background-color: #A3E4D7;
+}
+
+.shelter-for-a-family {
+    background-color: #EBDEF0;
+    padding-left: 10px;
+}
+
+.in-box-text-two {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.food-for-family {
+    padding-top: 10px;
+    padding-left: 8px;
+}
+
+.in-box-text-three {
+    background-color: #FADBD8;
+    padding-left: 8px;
+}
+
+.donate-box {
+    display: flex;
+    width: 60%;
+    height: 40%;
+    padding-left: 8px;
+    padding-right: 5px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    text-align: center;
+
+    margin: 30px;
+
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 4%;
+    padding-top: 6%;
+
+}
+
+.half-width img {
+    width: 100%;
+
+}
+
+#big-text {
+    font-size: 30px;
+    padding-top: 20px;
+
+}
+
+.half-width-two img {
+    width: 400px
+}
+
+.sumon-box {
+    margin-left: 3px;
+    margin-left: 3px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+
+}
+
+.how-to-contribute {
+    background-color: #E74C3C;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+.scl-worker {
+    font-size: 70px;
+    text-align: center;
+
+}
+
+.get-my-update {
+    font-size: 40px;
+    text-align: center;
+}
+
+.dm-text {
+    font-size: 13px;
+    text-align: center;
+}
+
+.enter-email-form {
+    background-color: #FCF3CF;
+    padding-left: 20px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.form-box {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.form-box input {
+    font-size: 18px;
+    color: black;
+    padding: 15px 10px;
+    border: none;
+    outline: none;
+    background-color: #D7DBDD;
+}
+
+.form-box button {
+    color: white;
+    padding: 15px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #E74C3C;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.form-box button:hover {
+    background-color: #E74C3C;
+}
+
+.black-bg {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+
+}
